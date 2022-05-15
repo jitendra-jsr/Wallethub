@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name=" wallet Hub tests">
+	
+	<listeners>
+		<listener class-name="com.wh.qa.Reports.ExtentReporterNG"/>
+	</listeners>
+	
+	<test name="FB and WH Tests">
+	
+		<classes>
+			<class name="com.wh.qa.tests.FacebookHomePageTest" />
+			<class name="com.wh.qa.tests.WHTest" />
+		</classes>
+		
+	</test>
+</suite>
